@@ -18,8 +18,8 @@
                 "height": 80
               },
               "position": {
-                "x": 50,
-                "y": 50
+                "x": 42,
+                "y": 112
               },
               "angle": 0,
               "id": "318f24a5-b459-4df7-9d49-e309f0fdc703",
@@ -30,7 +30,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "client"
+                  "text": "login"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
@@ -44,8 +44,8 @@
                 "height": 100
               },
               "position": {
-                "x": 452,
-                "y": 204
+                "x": 383,
+                "y": 180
               },
               "angle": 0,
               "id": "e39b7f88-8b00-4b8c-8814-be380e463911",
@@ -56,10 +56,180 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "reverse proxy"
+                  "text": "reverse proxy\nDMZ"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 586,
+                "y": 9
+              },
+              "target": {
+                "x": 255,
+                "y": 538
+              },
+              "vertices": [
+                {
+                  "x": 352,
+                  "y": 174
+                }
+              ],
+              "id": "8305699a-cb21-4673-a566-5aefba49f398",
+              "z": 3,
+              "attrs": {}
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 468,
+                "y": 524
+              },
+              "target": {
+                "x": 738,
+                "y": 83
+              },
+              "vertices": [
+                {
+                  "x": 531,
+                  "y": 294
+                },
+                {
+                  "x": 552,
+                  "y": 228
+                },
+                {
+                  "x": 571,
+                  "y": 188
+                },
+                {
+                  "x": 618,
+                  "y": 133
+                }
+              ],
+              "id": "af74d207-d309-44fb-b9ef-a1c5d656492e",
+              "z": 4,
+              "attrs": {}
+            },
+            {
+              "type": "tm.Store",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 787,
+                "y": 386
+              },
+              "angle": 0,
+              "id": "f255b2b0-efbd-4b23-bd0f-ce16061342dd",
+              "z": 5,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Base de dades"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 572,
+                "y": 292
+              },
+              "angle": 0,
+              "id": "ec1ae545-e0cb-47d3-9de4-a7fdc0d6e7f6",
+              "z": 6,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "webserver"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 832,
+                "y": 148
+              },
+              "target": {
+                "x": 674,
+                "y": 527
+              },
+              "vertices": [],
+              "id": "084edb53-a713-49d1-be77-bbf3e65c1e28",
+              "z": 7,
+              "attrs": {}
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "x": 205,
+                "y": 164
+              },
+              "target": {
+                "x": 378,
+                "y": 228
+              },
+              "vertices": [
+                {
+                  "x": 280,
+                  "y": 195
+                },
+                {
+                  "x": 371,
+                  "y": 228
+                }
+              ],
+              "id": "0eb0fb3e-08ff-4729-9707-8b959373ac24",
+              "labels": [
+                {
+                  "position": {
+                    "distance": 0.33948947099876553,
+                    "offset": 4.157769789368463
+                  },
+                  "attrs": {
+                    "text": {
+                      "text": "user+pass",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 8,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
                 }
               }
             }
@@ -67,7 +237,7 @@
         },
         "size": {
           "height": 590,
-          "width": 790
+          "width": 967
         }
       }
     ]
